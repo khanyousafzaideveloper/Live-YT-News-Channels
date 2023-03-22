@@ -16,4 +16,10 @@
     <!-- Error messages -->
     <string name="error_fragment_message">An error occurred</string>
     <string name="dismiss_error">Dismiss</string>
+    <string name="sky_news_ch">Sky News</string>
+    <string name="dw_news_ch">DW News</string>
+    <string name="geo_news_ch">GEO News</string>
+    <string name="trt_world_ch">TRT World</string>
+    <string name="al_jazeera_ch">Al Jazeera</string>
+    <string name="cgtn_ch">CGTN</string>
 </resources>
