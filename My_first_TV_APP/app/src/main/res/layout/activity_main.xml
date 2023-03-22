@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout android:layout_width="match_parent"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:paddingTop="30dp"
-    android:background="@drawable/wallpaper3"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
+    android:alignmentMode="alignMargins"
+    android:columnCount="2"
+    android:columnOrderPreserved="false"
+    android:foregroundTint="#84683D"
+    android:rowCount="2"
+    android:rowOrderPreserved="false">
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="677dp"
-        android:layout_height="115dp"
-        android:layout_marginRight="8dp"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:backgroundTint="#BCA05E"
+        android:layout_margin="10dp"
         android:background="@drawable/button_background"
-        android:backgroundTint="#FBE933"
-        android:backgroundTintMode="src_atop"
-        android:foregroundTint="#6679E7"
-        android:text="AL jazeera" />
+        android:text="AL Jazeera"
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="677dp"
-        android:layout_height="106dp"
-        android:layout_marginRight="8dp"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:backgroundTint="#3F797C"
+        android:layout_margin="10dp"
         android:background="@drawable/button_background"
-        android:backgroundTintMode="add"
-        android:text="TRT" />
+        android:text="TRT World"
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="656dp"
-        android:layout_height="110dp"
-        android:backgroundTint="#FFC518"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
         android:background="@drawable/button_background"
-        android:text="CGTN" />
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        android:backgroundTint="#EFD27C"
+        android:text="CGTN"
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="661dp"
-        android:layout_height="102dp"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
         android:background="@drawable/button_background"
-        android:foregroundTint="#D31608"
-        android:text="Sky News" />
+        android:layout_margin="10dp"
+        android:backgroundTint="#F86F6F"
+        android:text="Sky News"
+        android:textSize="40sp" />
 
-</LinearLayout>
+</GridLayout>
