@@ -90,7 +90,7 @@ public class VideoDetailsFragment extends DetailsSupportFragment {
         Glide.with(getActivity())
                 .asBitmap()
                 .centerCrop()
-                .error(R.drawable.background3)
+                .error(R.drawable.wallpaper3)
                 .load(data.getBackgroundImageUrl())
                 .into(new SimpleTarget<Bitmap>() {
                     @Override
@@ -106,13 +106,13 @@ public class VideoDetailsFragment extends DetailsSupportFragment {
         Log.d(TAG, "doInBackground: " + mSelectedMovie.toString());
         final DetailsOverviewRow row = new DetailsOverviewRow(mSelectedMovie);
         row.setImageDrawable(
-                ContextCompat.getDrawable(getActivity(), R.drawable.background3));
+                ContextCompat.getDrawable(getActivity(), R.drawable.wallpaper3));
         int width = convertDpToPixel(getActivity().getApplicationContext(), DETAIL_THUMB_WIDTH);
         int height = convertDpToPixel(getActivity().getApplicationContext(), DETAIL_THUMB_HEIGHT);
         Glide.with(getActivity())
                 .load(mSelectedMovie.getCardImageUrl())
                 .centerCrop()
-                .error(R.drawable.background3)
+                .error(R.drawable.wallpaper3)
                 .into(new SimpleTarget<Drawable>(width, height) {
                     @Override
                     public void onResourceReady(@NonNull Drawable drawable,

@@ -116,7 +116,7 @@ public class MainFragment extends BrowseSupportFragment {
         mBackgroundManager = BackgroundManager.getInstance(getActivity());
         mBackgroundManager.attach(getActivity().getWindow());
 
-        mDefaultBackground = ContextCompat.getDrawable(getActivity(), R.drawable.background3);
+        mDefaultBackground = ContextCompat.getDrawable(getActivity(), R.drawable.wallpaper3);
         mMetrics = new DisplayMetrics();
         getActivity().getWindowManager().getDefaultDisplay().getMetrics(mMetrics);
     }

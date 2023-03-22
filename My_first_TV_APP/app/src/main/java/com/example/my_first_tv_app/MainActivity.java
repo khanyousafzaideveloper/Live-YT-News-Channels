@@ -2,6 +2,7 @@ package com.example.my_first_tv_app;
 
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -21,16 +22,12 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         Button b6 = findViewById(R.id.button6);
         Button b3 = findViewById(R.id.button3);
         Button b7 = findViewById(R.id.button7);
+
         b2.setOnClickListener(this);
-
         b4.setOnClickListener(this);
-
         b5.setOnClickListener(this);
-
         b6.setOnClickListener(this);
-
         b3.setOnClickListener(this);
-
         b7.setOnClickListener(this);
 
         b2.setOnFocusChangeListener(this);

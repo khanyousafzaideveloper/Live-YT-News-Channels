@@ -6,7 +6,8 @@
     android:alignmentMode="alignMargins"
     android:columnCount="2"
     android:columnOrderPreserved="false"
-    android:foregroundTint="#84683D"
+    android:foregroundTint="#D7870B"
+    android:background="@drawable/wallpaper3"
     android:rowCount="3"
     android:rowOrderPreserved="false">
 
@@ -14,12 +15,13 @@
         android:id="@+id/button2"
         android:layout_row="0"
         android:layout_rowWeight="1"
-        android:focusableInTouchMode="true"
         android:layout_column="0"
         android:layout_columnWeight="1"
-        android:backgroundTint="#BCA05E"
         android:layout_margin="10dp"
         android:background="@drawable/button_background"
+        android:backgroundTint="#E1CB0A"
+        android:focusableInTouchMode="true"
+        android:shadowColor="#FFFFFF"
         android:text="@string/al_jazeera_ch"
         android:textSize="43sp" />
 
@@ -29,10 +31,10 @@
         android:layout_rowWeight="1"
         android:layout_column="1"
         android:layout_columnWeight="1"
-        android:backgroundTint="#3F797C"
-        android:focusableInTouchMode="true"
         android:layout_margin="10dp"
         android:background="@drawable/button_background"
+        android:backgroundTint="#02D2DD"
+        android:focusableInTouchMode="true"
         android:text="@string/trt_world_ch"
         android:textSize="43sp" />
 
@@ -40,12 +42,12 @@
         android:id="@+id/button5"
         android:layout_row="1"
         android:layout_rowWeight="1"
-        android:background="@drawable/button_background"
         android:layout_column="0"
         android:layout_columnWeight="1"
-        android:focusableInTouchMode="true"
         android:layout_margin="10dp"
-        android:backgroundTint="#EFD27C"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#0237BB"
+        android:focusableInTouchMode="true"
         android:text="@string/cgtn_ch"
         android:textSize="43sp" />
 
@@ -54,11 +56,11 @@
         android:layout_row="1"
         android:layout_rowWeight="1"
         android:layout_column="1"
-        android:focusableInTouchMode="true"
         android:layout_columnWeight="1"
-        android:background="@drawable/button_background"
         android:layout_margin="10dp"
-        android:backgroundTint="#F86F6F"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#FE3333"
+        android:focusableInTouchMode="true"
         android:text="@string/sky_news_ch"
         android:textSize="43sp" />
 
@@ -68,12 +70,12 @@
         android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="1"
-        android:background="@drawable/button_background"
         android:layout_margin="10dp"
-        android:backgroundTint="#03CACA"
-        android:textSize="43sp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#3BC1FE"
         android:focusableInTouchMode="true"
-        android:text="@string/dw_news_ch" />
+        android:text="@string/dw_news_ch"
+        android:textSize="43sp" />
 
     <Button
         android:id="@+id/button7"
@@ -81,11 +83,11 @@
         android:layout_rowWeight="1"
         android:layout_column="1"
         android:layout_columnWeight="1"
-        android:background="@drawable/button_background"
         android:layout_margin="10dp"
-        android:backgroundTint="#0B7CF6"
-        android:textSize="43sp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#FF9800"
         android:focusableInTouchMode="true"
-        android:text="@string/geo_news_ch" />
+        android:text="@string/geo_news_ch"
+        android:textSize="43sp" />
 
 </GridLayout>
