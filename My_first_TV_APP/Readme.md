@@ -9,5 +9,6 @@ Typing, for the selection of e.g. a favorite channel on a smart TV, using a remo
     3. Connect Your usb to Smart TV and install it. 
 
 ## ScreenShots:
-![A Screenshot](/home/aky/Pictures/LiveTvNews.png "....")
+![Screenshot of my application](https://raw.githubusercontent.com/khanyousafzaideveloper/Live-YT-News-Channels/main/My_first_TV_APP/LiveTvNews.png)
+
 
